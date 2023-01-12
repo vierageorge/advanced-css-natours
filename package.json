@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "compile:sass:watch": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
