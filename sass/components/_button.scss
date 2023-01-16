@@ -54,3 +54,27 @@
     transition: all 0.4s;
   }
 }
+
+.btn-text {
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: $default-fontsize;
+    color: $color-primary;
+    text-decoration: none;
+    border-bottom: solid 1px $color-primary;
+    padding: 3px;
+    transition: all .2s;
+  }
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-primary;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+    transform: translateY(0);
+  }
+}
