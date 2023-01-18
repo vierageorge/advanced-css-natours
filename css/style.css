@@ -201,6 +201,27 @@
   .feature-box:hover {
     transform: scale(1.03) translateY(-1.5rem); }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-10deg); }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    float: left;
+    transform: translateX(-3rem) skewX(10deg); }
+  .story__text {
+    transform: skewX(10deg); }
+  .story__img {
+    height: 100%; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
@@ -372,3 +393,7 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem;
   margin-top: -11rem; }
+
+.section-stories {
+  background-color: #f7f7f7;
+  padding: 15rem 0; }
